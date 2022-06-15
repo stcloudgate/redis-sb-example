@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import com.redis.sbredisexample.model.Student;
 
-@Repository
+//@Repository
 public interface StudentRepository extends CrudRepository<Student, Integer>  
 {  
 	
